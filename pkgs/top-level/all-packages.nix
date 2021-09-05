@@ -23781,6 +23781,8 @@ with pkgs;
 
   boops = callPackage ../applications/audio/boops { };
 
+  ChowCentaur  = callPackage ../applications/audio/ChowCentaur { };
+
   CHOWTapeModel = callPackage ../applications/audio/CHOWTapeModel { };
 
   chromium = callPackage ../applications/networking/browsers/chromium (config.chromium or {});
